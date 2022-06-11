@@ -1,0 +1,30 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Badge"
+     Description "This is your badge. It makes you important."
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59971AA978AD32F2}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{59971AA95D3A3E3A}" {
+       AnimGraph "{A5F1A8E02463964C}Assets/Items/Equipment/workspaces/Flashlight_soviet01.agr"
+       AnimInstance "{9E039B754DED4916}Assets/Items/Equipment/workspaces/Flashlight_soviet01_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation -30 -60 -30
+     HandAdditiveTranslation 0.06 0.07 0
+    }
+   }
+  }
+  MeshObject "{59971AA93F380EE3}" {
+   Object "{01F01D4295B46C15}Assets/Items/Equipment/Accessories/Badge/Badge.xob"
+  }
+  SCR_ConsumableItemComponent "{59971AA9C832CAC9}" {
+   m_eAnimVariable ADRIANOV
+  }
+ }
+}

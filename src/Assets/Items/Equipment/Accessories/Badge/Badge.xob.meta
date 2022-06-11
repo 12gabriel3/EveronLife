@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{01F01D4295B46C15}Assets/Items/Equipment/Accessories/Badge/Badge.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{59971AAA72DE9111}" {
+     SourceMaterial "Badge_body"
+     AssignedMaterial "{B9C94D4D667D1D17}Assets/Items/Equipment/Accessories/Badge/data/Badge_body.emat"
+    }
+    MaterialAssignClass "{59971AAA72DE911F}" {
+     SourceMaterial "PIP_Material"
+     AssignedMaterial "{76E3E85D81AD40AC}Assets/Items/Equipment/Accessories/Badge/data/PIP_Material.emat"
+    }
+   }
+   Common TXOCommonClass "{59971AAA72C2E140}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{59971AAA72C2FFD2}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{59971AAA72C2FF47}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{59971AAA72C2FED2}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{59971AAA72C2FE31}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

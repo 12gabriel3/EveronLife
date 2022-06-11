@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.122 0.122 0.122 1
+ BCRMap "{2C2411924177AC7B}Assets/_SharedData/Fabric/ST_Leather_01_BCR.edds"
+ NMOMap "{D6F07D5F999E24BB}Assets/_SharedData/Fabric/ST_Leather_01_N.edds"
+}

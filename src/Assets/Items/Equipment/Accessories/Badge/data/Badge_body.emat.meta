@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B9C94D4D667D1D17}Assets/Items/Equipment/Accessories/Badge/data/Badge_body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{76E3E85D81AD40AC}Assets/Items/Equipment/Accessories/Badge/data/PIP_Material.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
