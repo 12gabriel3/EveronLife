@@ -12,6 +12,7 @@ MatPBRMulti {
  Color_2 0.447 0.353 0.129 1
  BCR_2 "{35DFF427FFCD66ED}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_BCR.edds"
  NMO_2 "{0D074FB526BA3473}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_NMO.edds"
+ Roughness_2 2.13
  Color_1 0.102 0.12 0.125 1
  BCR_1 "{2C2411924177AC7B}Assets/_SharedData/Fabric/ST_Leather_01_BCR.edds"
  NMO_1 "{D6F07D5F999E24BB}Assets/_SharedData/Fabric/ST_Leather_01_N.edds"
