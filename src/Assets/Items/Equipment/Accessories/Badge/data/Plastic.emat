@@ -1,0 +1,15 @@
+MatPBRBasicGlass {
+ Color 0 0 0 1
+ Cull none
+ Sort overlay
+ SpecularMul 3.739
+ AlphaMul 0.186
+ RoughnessScale 0.301
+ BCRMap "{0236DEFDB2549ADB}Assets/_SharedData/Plastic/ST_PlasticBase_03_BCR.edds"
+ OpacityMap "{46CF67CB400DECC9}Assets/_SharedData/Glass/ST_Glass_Streaks_01_A.edds"
+ NMOMap "{F9AA69A6CF613C5F}Assets/_SharedData/Plastic/ST_PlasticWrinkle_01_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{59977A08AD8E2A45}" {
+  TilingU 2
+  TilingV 2
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2043A9BA6BC0C926}Assets/Items/Equipment/Accessories/Badge/data/Plastic.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

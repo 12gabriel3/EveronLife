@@ -11,6 +11,10 @@ MetaFileClass {
      SourceMaterial "PIP_Material"
      AssignedMaterial "{76E3E85D81AD40AC}Assets/Items/Equipment/Accessories/Badge/data/PIP_Material.emat"
     }
+    MaterialAssignClass "{599754ABB3710E49}" {
+     SourceMaterial "Plastic"
+     AssignedMaterial "{2043A9BA6BC0C926}Assets/Items/Equipment/Accessories/Badge/data/Plastic.emat"
+    }
    }
    Common TXOCommonClass "{59971AAA72C2E140}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }

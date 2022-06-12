@@ -1,5 +1,18 @@
-MatPBRBasic {
- Color 0.122 0.122 0.122 1
- BCRMap "{2C2411924177AC7B}Assets/_SharedData/Fabric/ST_Leather_01_BCR.edds"
- NMOMap "{D6F07D5F999E24BB}Assets/_SharedData/Fabric/ST_Leather_01_N.edds"
+MatPBRMulti {
+ GlobalMCRMap "{C8E473F3B2259349}Assets/Items/Equipment/Accessories/Badge/data/Badge_body_MCR.edds"
+ MaskMap "{4C44F9E169744BFF}Assets/Items/Equipment/Accessories/Badge/data/Badge_body_GLOBAL_MASK.edds"
+ GlobalNMOMap "{0C5742F019AC5109}Assets/Items/Equipment/Accessories/Badge/data/Badge_body_NMO.edds"
+ Enabled_3 1
+ Color_3 0 0.125 0.502 1
+ BCR_3 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_3 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ Roughness_3 0
+ Metalness_3 4.908
+ Enabled_2 1
+ Color_2 0.447 0.353 0.129 1
+ BCR_2 "{35DFF427FFCD66ED}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_BCR.edds"
+ NMO_2 "{0D074FB526BA3473}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_NMO.edds"
+ Color_1 0.102 0.12 0.125 1
+ BCR_1 "{2C2411924177AC7B}Assets/_SharedData/Fabric/ST_Leather_01_BCR.edds"
+ NMO_1 "{D6F07D5F999E24BB}Assets/_SharedData/Fabric/ST_Leather_01_N.edds"
 }
