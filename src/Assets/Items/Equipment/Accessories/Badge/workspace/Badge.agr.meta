@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D140A1E085ABC2C4}Assets/Items/Equipment/Accessories/Badge/Badge.agr"
+ Configurations {
+  AnimGraphResourceClass PC {
+  }
+  AnimGraphResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphResourceClass PS4 : PC {
+  }
+  AnimGraphResourceClass HEADLESS : PC {
+  }
+ }
+}

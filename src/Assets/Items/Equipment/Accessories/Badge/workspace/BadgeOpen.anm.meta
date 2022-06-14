@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B02DE64687952F87}Assets/Items/Equipment/Accessories/Badge/BadgeOpen.anm"
+ Configurations {
+  FBXAnimResourceClass PC {
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass XBOX_SERIES : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass HEADLESS : PC {
+  }
+ }
+}

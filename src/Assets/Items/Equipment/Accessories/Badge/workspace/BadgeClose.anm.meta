@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B5046C891BC6CA6D}Assets/Items/Equipment/Accessories/Badge/BadgeClose.anm"
+ Configurations {
+  FBXAnimResourceClass PC {
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass XBOX_SERIES : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass HEADLESS : PC {
+  }
+ }
+}

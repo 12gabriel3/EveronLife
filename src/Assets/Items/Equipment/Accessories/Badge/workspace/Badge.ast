@@ -1,0 +1,14 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{599AF4CD3454B7F2}" {
+   Name "Root"
+   Animations {
+    "Close"
+    "Open"
+   }
+   Columns {
+    "State 0"
+   }
+  }
+ }
+}

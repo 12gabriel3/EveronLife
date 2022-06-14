@@ -1,0 +1,18 @@
+AnimSrcGraph {
+ AnimSetTemplate "{C3B2C7E0B26E1637}Assets/Items/Equipment/Accessories/Badge/Badge.ast"
+ AnimSyncTable "{5A178CC4094315C5}Assets/Items/Equipment/Accessories/Badge/Badge.asy"
+ ControlTemplate AnimSrcGCT "{599AEDA32F19FAA9}" {
+  Commands {
+   AnimSrcGCTCmd CMD_Item_Change_Show {
+   }
+   AnimSrcGCTCmd CMD_Item_Change_Hide {
+   }
+  }
+ }
+ Debug AnimSrcGD "{599AEDA32F19FAFA}" {
+ }
+ GraphFilesResourceNames {
+  "{FE4EBF5A1B08ABF4}Assets/Items/Equipment/Accessories/Badge/Badge.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

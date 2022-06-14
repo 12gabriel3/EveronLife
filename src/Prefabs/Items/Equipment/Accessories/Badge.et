@@ -7,6 +7,9 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
      Name "Badge"
      Description "This is your badge. It makes you important."
     }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     RestingUP Forward
+    }
     ItemAnimationAttributes ItemAnimationAttributes "{59971AA978AD32F2}" {
      AnimationAttachments {
       AnimationAttachmentInfo "{59971AA95D3A3E3A}" {
@@ -14,17 +17,34 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
        AnimInstance "{9E039B754DED4916}Assets/Items/Equipment/workspaces/Flashlight_soviet01_player.asi"
        BindingName "Gadget"
       }
+      AnimationAttachmentInfo "{599CF550425FA6DB}" {
+       AnimGraph "{D140A1E085ABC2C4}Assets/Items/Equipment/Accessories/Badge/Badge.agr"
+       AnimInstance "{3C2AF43B99A2902A}Assets/Items/Equipment/Accessories/Badge/Badge.asi"
+      }
      }
-     HandAdditiveRotation -30 -60 -30
-     HandAdditiveTranslation 0.06 0.07 0
+     HandAdditiveRotation 45 30 0
+     HandAdditiveTranslation 0 0.05 0.05
     }
    }
+   WbPlacementFromAttributes 1
   }
   MeshObject "{59971AA93F380EE3}" {
    Object "{01F01D4295B46C15}Assets/Items/Equipment/Accessories/Badge/Badge.xob"
   }
-  SCR_ConsumableItemComponent "{59971AA9C832CAC9}" {
-   m_eAnimVariable ADRIANOV
+  Hierarchy "{599AC8E466545DAB}" {
+  }
+  RigidBody "{599A17FB1F731135}" {
+   Active Active
+   Gravity 0
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_ConsumableItemComponent "{599B6DFFE37DAA8A}" {
+   m_eAnimVariable MAP
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+   }
   }
  }
 }

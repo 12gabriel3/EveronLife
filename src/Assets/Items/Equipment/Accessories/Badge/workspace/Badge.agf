@@ -1,0 +1,52 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Badge {
+   Nodes {
+    AnimSrcNodeStateMachine MasterControl {
+     EditorPos 621.5 347.4
+     states {
+      AnimSrcNodeState Opened {
+       EditorPos 619.9 348.2
+       Child "OpenAnim"
+       StartCondition "IsCommand(CMD_Item_Change_Show) "
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState Closed {
+       EditorPos 622.6 348.2
+       Child "CloseAnim"
+       StartCondition "IsCommand(CMD_Item_Change_Hide) "
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{599B65E23C0E5FD0}" {
+       FromState "Opened"
+       ToState "Closed"
+       StartTime "0"
+       Condition "IsCommand(CMD_Item_Change_Hide)"
+      }
+      AnimSrcNodeTransition "{599B65E23C0E5FC0}" {
+       FromState "Closed"
+       ToState "Opened"
+       StartTime "0"
+       Condition "IsCommand(CMD_Item_Change_Show) "
+      }
+     }
+    }
+    AnimSrcNodeSource CloseAnim {
+     EditorPos 623.2 350.1
+     Source "Root.State 0.Close"
+     Interpolate 1
+    }
+    AnimSrcNodeSource OpenAnim {
+     EditorPos 619.7 350.2
+     Source "Root.State 0.Open"
+     Looptype "No Loop"
+     Interpolate 1
+    }
+   }
+  }
+ }
+}

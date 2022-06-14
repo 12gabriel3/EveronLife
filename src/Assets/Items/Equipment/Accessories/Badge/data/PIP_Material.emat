@@ -1,3 +1,6 @@
 MatPBRBasic {
- BCRMap "$rendertarget"
+ BCRMap "{BD0B94F5D3E8F7FF}Assets/Items/Equipment/Accessories/Badge/data/s-l400.edds"
+ GlobalMapsUVTransform MatUVTransform "{599A4740A016CEDE}" {
+  TilingV 1.6
+ }
 }

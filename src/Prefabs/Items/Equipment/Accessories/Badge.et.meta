@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E4A221F1594BE4AF}Prefabs/Items/Core/Badge.et"
+ Name "{E4A221F1594BE4AF}Prefabs/Items/Equipment/Accessories/Badge.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FE4EBF5A1B08ABF4}Assets/Items/Equipment/Accessories/Badge/Badge.agf"
+ Configurations {
+  AnimGraphFileResourceClass PC {
+  }
+  AnimGraphFileResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphFileResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphFileResourceClass PS4 : PC {
+  }
+  AnimGraphFileResourceClass HEADLESS : PC {
+  }
+ }
+}

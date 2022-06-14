@@ -1,0 +1,11 @@
+AnimSetInstanceSource {
+ Template "{C3B2C7E0B26E1637}Assets/Items/Equipment/Accessories/Badge/Badge.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Root.State 0.Open" {
+   Resource "{B02DE64687952F87}Assets/Items/Equipment/Accessories/Badge/BadgeOpen.anm"
+  }
+  AnimSetInstanceSource_Line "Root.State 0.Close" {
+   Resource "{B5046C891BC6CA6D}Assets/Items/Equipment/Accessories/Badge/BadgeClose.anm"
+  }
+ }
+}
