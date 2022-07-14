@@ -1,0 +1,23 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Gestures {
+   Nodes {
+    AnimSrcNodeStateMachine MasterControl {
+     EditorPos 7.1 3.6
+     states {
+      AnimSrcNodeState Surrender {
+       EditorPos 8 4.6
+       Child "Source 1"
+       StartCondition "true"
+       TimeStorage "Real Time"
+      }
+     }
+    }
+    AnimSrcNodeSource "Source 1" {
+     EditorPos 8.3 6.4
+     Source "Gestures.Default.Surrender"
+    }
+   }
+  }
+ }
+}

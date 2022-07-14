@@ -1,0 +1,15 @@
+AnimSrcGraph {
+ AnimSetTemplate "{8E5C07A9F69C2E6C}anims/workspaces/player/gestures.ast"
+ ControlTemplate AnimSrcGCT "{59DB5E0753DD69FF}" {
+  Commands {
+   AnimSrcGCTCmd CMD_Gestures {
+   }
+  }
+ }
+ Debug AnimSrcGD "{59DB5E0753DD69E9}" {
+ }
+ GraphFilesResourceNames {
+  "{B3A07F135FFA93AF}anims/workspaces/player/Gestures.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

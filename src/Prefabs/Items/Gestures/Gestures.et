@@ -1,0 +1,29 @@
+GenericEntity {
+ ID "59DB5E05688A5D7B"
+ components {
+  InventoryItemComponent "{59DB5E0519B660BA}" {
+   Attributes SCR_ItemAttributeCollection "{59DB5E051B90B20E}" {
+    ItemDisplayName UIInfo "{59DB5E05DBF85A3C}" {
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{59DB5E05C11F6865}" {
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59DB5E051E2BF372}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{59DB70E61F092043}" {
+       AnimGraph "{9CAE61A9C159FAA0}anims/workspaces/player/Gestures.agr"
+       AnimInstance "{71C43472DD50A871}anims/workspaces/player/Gestures.asi"
+       BindingName "Gadget"
+      }
+     }
+    }
+    m_Size SLOT_1x1
+    m_SlotType SLOT_ANY
+   }
+  }
+  SCR_GadgetComponent "{59DB6E842DD7E75A}" {
+   m_eAnimVariable ADRIANOV
+  }
+  RplComponent "{59DB6E161582CF83}" {
+  }
+ }
+}

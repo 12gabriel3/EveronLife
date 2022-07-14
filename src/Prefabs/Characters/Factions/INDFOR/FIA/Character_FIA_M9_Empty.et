@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
    WeaponTemplate "{BC5061EBB3284158}Prefabs/Weapons/Handguns/M9/Handgun_M9_empty.et"
   }
   EL_GesturesControllerComponent "{59DA3C6BC3CAD614}" {
+   m_Prefab "{B376E01F15715CFF}Prefabs/Items/Gestures/Gestures.et"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {

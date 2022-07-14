@@ -9,9 +9,14 @@ enum EL_ECharacterGestures
 
 class EL_GesturesControllerComponent : ScriptComponent
 {
+	[Attribute()]
+	protected ResourceName m_Prefab;
+	
 	protected CharacterControllerComponent m_CharacterController;
 	protected BaseWeaponManagerComponent m_WeaponManager;
 	protected InputManager m_InputManager;
+	
+	protected IEntity m_CurrentGesture;
 	
 	override void OnPostInit(IEntity owner)
 	{
@@ -20,6 +25,7 @@ class EL_GesturesControllerComponent : ScriptComponent
 		m_InputManager = GetGame().GetInputManager();
         m_InputManager.AddActionListener("EL_GestureSurrender", EActionTrigger.DOWN, OnSurrender);
         m_InputManager.AddActionListener("EL_GestureSurrender", EActionTrigger.UP, OnSurrender);
+		
 	}
 	
 	void OnSurrender( float value = 0.0, EActionTrigger reason = 0 )
@@ -30,13 +36,15 @@ class EL_GesturesControllerComponent : ScriptComponent
 			if(m_WeaponManager.GetCurrent() && m_WeaponManager.GetCurrent().GetWeaponType() != EWeaponType.WT_NONE) m_CharacterController.TryEquipRightHandItem(null, EEquipItemType.EEquipTypeUnarmed);
 			else 
 			{
+				m_CurrentGesture = EL_Utils.SpawnEntityPrefab(m_Prefab, Vector(0, 0, 0));
 				m_InputManager.ActivateContext("CharacterRestrainedContext", 100000000);
-				m_CharacterController.TryStartCharacterGesture(EL_ECharacterGestures.SURRENDER);
+				m_CharacterController.TakeGadgetInLeftHand(m_CurrentGesture, 1, false, true);
 			}
 		} 
 		else if ( reason == EActionTrigger.UP )
 		{
-			m_CharacterController.StopCharacterGesture();
+			m_CharacterController.RemoveGadgetFromHand(true);
+			delete m_CurrentGesture;
 			m_InputManager.ActivateContext("CharacterRestrainedContext");      // Activates the context for 0 seconds
 		}
 	}	
